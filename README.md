@@ -10,7 +10,7 @@ FPC supports a huge list of platforms, just install fpc compiler for your OS and
 I provide binary executables for Windows and Linux (compiled on Ubuntu 19.10 and Lazarus 2.0.2+dfsg-2 rDebian package 2.0.2+dfsg-2 FPC 3.0.4 x86_64-linux-gtk2)
 
 * Download Windows binary:
-https://github.com/m2adel/PingHD/blob/master/PingHD.zip
+https://github.com/m2adel/PingHD/blob/master/Windows_PingHD.zip
 
 * Download Linux binary:
-https://github.com/m2adel/PingHD/blob/master/PingHD.tar.xz
+https://github.com/m2adel/PingHD/blob/master/Linux_PingHD.tar.xz
