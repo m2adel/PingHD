@@ -1,0 +1,307 @@
+object Form2: TForm2
+  Left = 414
+  Height = 339
+  Top = 397
+  Width = 491
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Info'
+  ClientHeight = 339
+  ClientWidth = 491
+  Color = clWhite
+  Position = poOwnerFormCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.8.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 339
+    Top = 0
+    Width = 491
+    ActivePage = TabSheet2
+    Align = alClient
+    TabIndex = 1
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Info'
+      ClientHeight = 311
+      ClientWidth = 483
+      object Memo1: TMemo
+        Left = 0
+        Height = 311
+        Top = 0
+        Width = 483
+        Align = alClient
+        BorderStyle = bsNone
+        Lines.Strings = (
+          '* This is a simple cross-platform program that was written to prevent hard drives from going into Sleep Mode. This is mostly helpful for users who are running several hard drives and want to have them active as long as they want. Use cases are several, and couple examples could be:'
+          ''
+          '- You fear that constant head parking for your HDD might affect its longevity. Some speculate.'
+          '- Your HDD goes to sleep too often that every time you try to access it, there''s a delay or lag on first access.'
+          ''
+          '* How does this program work?'
+          '- This program does NOT temper with any of your hard drive settings at all. Instead, it simply writes a text file according the specified timer interval to the location(path) where the instance of the program is run.'
+          ''
+          '* How to use this program for multiple drives?'
+          '- After some thought, I saw that it''s best to make it as felixable as possible by simply allowing the user to run infinite number of instances, and each instance is indepentend with its settings, path (drive) etc... At the cost of a bit messy tray bar in the case of running several instances for several drives.'
+          ''
+          '- The user can simply copy the executable file of this program to the desired path. As said, this can be be copied to countless number of drives according to the user needs.'
+          ''
+          '- The program generates the text file alongside the executable file, with the executable''s name. (The user may rename the executable to whatever he/she wishes, and the program will use that - explained below.)'
+          ''
+          '* How to add multiple instances to the Startup (Windows only, for now...)?'
+          '- The user MUST rename the executable to a unique name for each instances, otherwise it will override one another. For example; I have the executable in Drive D: named ''pinghd.exe'', and in Drive F: ''pinghd.exe'', if I try to add each, only the last instance will be added, because the program uses the name you choose for the exe and adds it to Windows Startup.'
+          ''
+          '* Ok, but what about Linux/Mac?'
+          '- A simple Google search is enough. It''s quite easy to add a program to your OS startup path.'
+          ''
+          '* For executable naming, it is suggested to rename each instance to its drive''s name, or inlcuding the drive''s letter, ie: "DriveD_PingHD". You are completely free to choose any name though.'
+          'As this is useful when running several instances to easily recognize them from tray icon by hovering over each the program shows the path this instance is launched from. Same as "Where?" label on the UI.'
+        )
+        ReadOnly = True
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'About'
+      ClientHeight = 311
+      ClientWidth = 483
+      object Label1: TLabel
+        Left = 124
+        Height = 30
+        Top = 123
+        Width = 218
+        Caption = 'A cross-platform and open-source utility.'#13#10'   To stop hard drives'' auto sleep mode.'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Image1: TImage
+        Left = 205
+        Height = 64
+        Top = 16
+        Width = 64
+        AutoSize = True
+        Center = True
+        Picture.Data = {
+          1754506F727461626C654E6574776F726B47726170686963350B000089504E47
+          0D0A1A0A0000000D4948445200000040000000400806000000AA6971DE000000
+          0473424954080808087C086488000000097048597300000B1300000B1301009A
+          9C1800000AD749444154789CD55B6B6C1CD515FECED9D987D776701CC77642DC
+          843C48138400F13221F11255811022152442512504B4C5508C08A890BEBBB268
+          52C749A4A6A1A4243FDA801AA426520115522AD0D6B1639A56E2F1A318700291
+          50130C049BF8917DCD3DFD31BBEBD9D999DD99F53A099FE4C7DC7BEE9D73BE7B
+          EEEBDC3B84698408686BDF8D2D29C53788D095009611B040204DD05107E28000
+          80A82404238A69080A27C0780F8277D2297973F3DADE4FA65347AA748551016B
+          8757AD24E04E517C1B3116420031C948EE9729DD4146943A0EE2574870007D3D
+          FD9D9D5095D4B7620444FB5BEB03A9603B11DA457049363D678849D61301E634
+          5D1D17A6BDE9A0DAD3B5AA6FB8127A4F9980EDB14843D2279BA0A8038C300088
+          49EB8A12907B50E34AF8694D4F7477AEFDD79753D1BF6C02A2B18816D2A44389
+          7432F8227B45A78B805CFE30097EF5FE48E3EE03771DD0CBB1A32C02BAFED9B6
+          4C913C47CCD7141862AF28C4946E96352B904D17714940E61F0539CAECBBF7D7
+          DF8A7DE0D516CF046CED6DFB9E407E0F70C8B6254D8A2A017401A000A1FC9711
+          E52B40A64C82210F659457D97738109079C504433DBC794DEF3E2FF6B826C070
+          79EC64E0E15C4B993431B75E5ACF186E7E894702ACF2BA00E9B4E93D98FC278F
+          7CA5760D7ED5FCB8DB2EE18A80682C120AF9E5000BAD37BFDC4C800290D2013D
+          FB5A93015325804C8269DDF8C9CD8536638728792910A0BB3B57F7C44BD95692
+          80682C12AAF6E36501D614B476E6575A0792BAF19CAB709A08A0CC7B936920AD
+          E038782A25AF0583747B2912B858663416D1AAFD7200C01ABB7C11209E02E2E9
+          FCFE39DD2002427EE3C7A90589E996784A5ED8F0970DBE62751525A0DA8F9D80
+          E1F65628054C2433AD709EA031100E02ECC002836E5F34E3B31DC5EA7024605B
+          EFAAEF0378D82E4F57C0787272743E9F6002AA8380CFC112626CFCC9A1C83D4E
+          E56DB9EB7AB36D994FC95B221CCAA6E5FABB02261299E762FD7C1AC700BB3C81
+          A197DDB8A00B2698F5ABBAD6F47D68B5B580B7682CA2F9943C074C1A9FAB28D3
+          F21740C31780005407ECBB030361E8B4CF6E3C2820A036201D005F634D17C918
+          7F215A9F01115013CCF7A6C94C6E5D74D1D08305C9E687EDB1488368EA18982F
+          02F28D1D8D4F0E78AEDCFC1C7701735D291D184B4CD667B2E34BA4F4C55DEB27
+          77929A990004641360186F46226D546ACBAC05DFB9BC139735464A0B02F8EBC0
+          66F83980F54B9F7425FFDEE76FE0E5F79F2A2917D080806EAC152CA8579AEF09
+          003FCF26E4BAC08EFED67A28EAB0961031A63BB768AA59E85AF6D36363888F15
+          6AE98419341F2707C75CC98603F60D26A21EDD188BD4659F793223D89EDDCF9B
+          319172DFEF350EA0BEEA6277C265604EFD02A4E3EEB62F4C4095DF269DB92694
+          C403B967C008630168B70A2B011229F70A36562F0053D1B5D594E0630DB3C2DF
+          70DD2021CDDE0B14547B346AD8CE0050D3BF6A253019C6CA229EF236E57971FF
+          727171C36224CFBA8B7D10192458C1E0C589D6B6EB8DFF0DDC695741C27DF704
+          0034D514705871B4345C8AC484FBE04FC8A61B0080023600008B8084F836AB40
+          32ED7DA97B2E3C60DEEC25488CBB6F1926C06FB31D22C23A00E09D7D37B63050
+          A0B9CD1452124DD5E788000F1E0018D3622168E993FF583197D31ADF60979DF4
+          18620CFB67A03638CB364F57693CFF7A3786C73E2B59CF97A343F8F31BDDD095
+          BD02B366CC01EB559E74F3DB120090F85730192736795062ACFBBDA098FBEB7A
+          1A278606F04CEC118C8C7DEE2877FACCA7D8BCFF7E9C1C1E841267176C9AB110
+          4A77DF3F3576D8328B5CC1022CB3A6A7CB0830172320E00F61D35DCFA0A1BE11
+          7F7C6BA32D09A7CF7C8A2D2FDC8FE659F3F0D81DBBE0F7051DEB2BA71BD86D97
+          1568390BB0C09AE1B5F581D20360D05F85FBAEDB86B06F66010923134319E35B
+          F0D81DBF83DF57B011CDC3BC8625887B1808017B0208B88459499335C38377E5
+          E066063048D88EB06F26FEF4F6469C497C81918921EC8E75B8361E005A665F8A
+          64053C80A01A198C3A6B86D72D2F815CAF0182FE2ADC7BED3654711D466BDEC7
+          F1E1FFA0A16EAE6BE381F2BA80FD468EEB198A03D664AF0E5057D58C80CFFDC8
+          1C0A8471EFB5DBD1527B3996CFBF1EF7B576BB361E00C2C15A847D0D9E74B4B3
+          5F01418709C21BCA59006549F0F9D893F159CC9DB90813C9FFC21F98DADE83C1
+          AA60B3EBF5BCACB9CC156028102ECB78009837DBDB92D8C1ABE30C85116BAA9B
+          C08719E7620F60C5BCD9DE6602BB718DA18635C5344440B339C3E79180D847CF
+          E16FFDCFE3EC19FBC889396C9597664EB686C48A9527209E184382DC7B80FDD4
+          CE431A0127005C614E768AB13BE1CA393783E6C0D1C8EC836DACD246B8240119
+          F49CD8E35A475B02947CAC41F01E08DF36A76B450F930AD1B6E0BBDE0A540807
+          7B7E8BC6F905412C5BD812C0186026BC53904EDEBDE07CE0F4C9B3AEE4D2CA61
+          6B4FF4AEA6347913E942FF0AF88C43CF729148C57174E0350040EBF2B50868CE
+          6BFBE946CAC10E4DA923FCC475BD9F00EAB83533E0104971038160F3FE1FE0D9
+          43BFC4FEA34F61D7A10EC8793C4FB28D6D0806B6DCDA7B2AE3E8FC8A353FE073
+          3E752D8553A74F60F07FEF62DE3767A069510D46AB8FE18BB169BDEFE80825C6
+          998615227815C8C6040907EC0A97BB4EACAB6E404D6D18A15AA302BF2F84DA90
+          7DB064BA11778E6A1F0432048CB6F6F42BE023AB4455910B08C5100ED5E2A1B5
+          5D9855D582D9D5F3B1E1B228425A7519354D0D220EE398C260F7AD3D4781CCD1
+          5827416D3B227B00EA32CB656F621461D111572F598DAB97AC2E43EDCAC1E9E6
+          8A10F6808C412937D9A595DA0351E356E12A7FF963C1F98412E0AC7DC38D92CF
+          BF37FB9023E0A7ABFA86017EDA2A4D649CB37DDD30E170942F223BB7AE79FDAB
+          EC73DE30479CE81609B60398694ECF9EB6DA8DA600F08BD76FC2F1A3A78BAFF7
+          AD7996236DBBA5B0637987657516C9B4D3D4A7BE480439EFCE50413DDB7A238F
+          80B10BC8675089714740C9857D3FC0AC67CEEEDC5D46F550F72DBDCF9AED2D58
+          F0CE3FD5B81B0AFFB6A613199791BC6E95CF25448C8B1176AEAF941CA9EAEFDD
+          6B4DB735676BDFEAA510F536117271AEEC25295D01E35FB74B52BA1A63E2ABBA
+          D6F61CB3DA6ABBE5F9F1CAD8070CF543BB3C5FE66EDE85E4092286F18EE17CA2
+          07ED8C078ADC137C7255EF3E256A975D9E8F8DEE70214C8F4A0C8F74325E043B
+          BAD71EDEEF54BEE8A677E1A9E6C745E425DB82647882761EB7CD69DD6879A753
+          6C053918ECEFD954AC8E926D188D4542D59ABC2844B7385E9656C6B473415D96
+          060E8DA7ABEED8B5EEEFA6FB628528D97E9DAB7BE2E369BA5D415E7492D11808
+          05ECCFE12B8D940EC44BDE5196836E8C075C100018242C3AD974A708763AC910
+          0C02420123A456C9E121FB11463C69105022B2B06370A4E96E37C60365E8B9F5
+          70E41E11FC018CB09B4F66944C7E03E4A50B64BF31CAD661AE37EF7DB92EA0C6
+          9550FB6F6E761EF0EC5056436D39BCF25208ED23E6564F1F4DE5295CA8402959
+          6702E488AED37D4E535D31943586FFACADEFC3C543CD2B45A443145C7FB74730
+          5A9A32035CAEA591F1128BC1A5A14E0BA987B4BEC36DE5189FD5694AD8D1DF5A
+          9F48057F04528F025C03387B8035CDF4C751C6D60314468565A7CF473B3A57F7
+          149C6C7941C5C6AA682C52E7673C0052ED24BC389B5E61020641D89354FEBDE6
+          2DED5450F1B55C54C0C19EB6EB15B081807542B4748A040C08F02A330E76DED4
+          73341BC9A914A67D311BED5B31D797F2AF00C91524B41C824B74568DD0B99E09
+          C1CCA62AAE440D137848947C4C8C01217A37C5EAC89648EFA9E9D4EFFF2761AF
+          D1B109EC2E0000000049454E44AE426082
+        }
+      end
+      object Label2: TLabel
+        Left = 192
+        Height = 30
+        Top = 83
+        Width = 72
+        Caption = 'PingHD'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -21
+        Font.Name = 'Segoe UI Semibold'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label3: TLabel
+        Left = 268
+        Height = 15
+        Top = 98
+        Width = 21
+        Caption = 'v0.1'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 167
+        Height = 15
+        Top = 177
+        Width = 142
+        Caption = 'Developer: Mahmoud Adel'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label5: TLabel
+        Left = 153
+        Height = 15
+        Top = 198
+        Width = 171
+        Caption = 'Email: m2adel@protonmail.com'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Cursor = crHandPoint
+        Left = 141
+        Height = 15
+        Top = 230
+        Width = 198
+        Caption = 'https://github.com/m2adel/PingHD  '
+        Font.Color = 13789440
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label7Click
+      end
+      object Label8: TLabel
+        Left = 224
+        Height = 15
+        Top = 264
+        Width = 47
+        Caption = 'Icons by:'
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Cursor = crHandPoint
+        Left = 168
+        Height = 15
+        Top = 286
+        Width = 156
+        Caption = 'https://www.iconfinder.com/'
+        Font.Color = 13789440
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label9Click
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 1
+        Top = 164
+        Width = 600
+        BevelOuter = bvNone
+        Color = 14540253
+        ParentColor = False
+        TabOrder = 0
+      end
+      object Panel3: TPanel
+        Left = 0
+        Height = 1
+        Top = 257
+        Width = 600
+        BevelOuter = bvNone
+        Color = 14540253
+        ParentColor = False
+        TabOrder = 1
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'License'
+      ClientHeight = 311
+      ClientWidth = 483
+      object Memo3: TMemo
+        Left = 0
+        Height = 311
+        Top = 0
+        Width = 483
+        Align = alClient
+        BorderStyle = bsNone
+        Lines.Strings = (
+          ''
+          'This program is free software: you can redistribute it and/or modify'
+          'it under the terms of the GNU General Public License as published by'
+          'the Free Software Foundation, either version 3 of the License, or'
+          '(at your option) any later version.'
+          ''
+          'This program is distributed in the hope that it will be useful,'
+          'but WITHOUT ANY WARRANTY; without even the implied warranty of'
+          'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the'
+          'GNU General Public License for more details.'
+          ''
+          'You should have received a copy of the GNU General Public License'
+          'along with this program.  If not, see <https://www.gnu.org/licenses/>.'
+        )
+        ReadOnly = True
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+      end
+    end
+  end
+end

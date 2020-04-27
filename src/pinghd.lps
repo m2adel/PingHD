@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="pinghd.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="40" Y="18"/>
+        <UsageCount Value="192"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frm_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FRM_Main"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="35"/>
+        <CursorPos X="23" Y="12"/>
+        <UsageCount Value="192"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="frm_info.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="45" Y="54"/>
+        <UsageCount Value="192"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="text.txt"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4" Y="5"/>
+        <UsageCount Value="96"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3552"/>
+        <CursorPos Y="3568"/>
+        <UsageCount Value="3"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\customedit.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="575"/>
+        <CursorPos Y="597"/>
+        <UsageCount Value="3"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="134"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="3"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2824"/>
+        <CursorPos Y="2851"/>
+        <UsageCount Value="3"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="385"/>
+        <CursorPos Y="406"/>
+        <UsageCount Value="3"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="136"/>
+        <CursorPos Y="153"/>
+        <UsageCount Value="3"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32int.pp"/>
+        <UnitName Value="Win32Int"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="269"/>
+        <CursorPos X="37" Y="285"/>
+        <UsageCount Value="3"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus28\fpc\3.0.4\source\packages\fcl-registry\src\registry.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="86"/>
+        <CursorPos X="14" Y="104"/>
+        <UsageCount Value="60"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus28\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="139"/>
+        <CursorPos X="64" Y="130"/>
+        <UsageCount Value="13"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="frm_info.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24" Y="13"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="318" Column="60" TopLine="294"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="15" Column="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="16" Column="27"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="17" Column="27"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="18" Column="27"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="19" Column="27"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="20" Column="27"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="21" Column="27"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="22" Column="27"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="23" Column="27"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="49" Column="44" TopLine="16"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="51" Column="3" TopLine="16"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="50" Column="3" TopLine="16"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="52" Column="3" TopLine="16"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="55" Column="22" TopLine="24"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="56" Column="22" TopLine="24"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="96" Column="51" TopLine="79"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="141" Column="8" TopLine="117"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="139" Column="9" TopLine="121"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="231" Column="39" TopLine="201"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="44" Column="15" TopLine="26"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="169" Column="61" TopLine="4"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="55" Column="45"/>
+      </Position23>
+      <Position24>
+        <Filename Value="pinghd.lpr"/>
+        <Caret Line="22"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="266" Column="6" TopLine="248"/>
+      </Position25>
+      <Position26>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="153" Column="49"/>
+      </Position26>
+      <Position27>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="75" Column="8" TopLine="61"/>
+      </Position27>
+      <Position28>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="55" Column="45"/>
+      </Position28>
+      <Position29>
+        <Filename Value="frm_info.pas"/>
+        <Caret Line="54" Column="45" TopLine="17"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="212" Column="4" TopLine="5"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
