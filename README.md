@@ -3,7 +3,7 @@ A simple cross-platform, no-dependency tool to keep your hard drive alive.
 
 Make sure to read the info tab before using this tool by clicking on 'Info(?)' button.
 
-I decided to create this tool as other similar tools that I've tried are either or Windows-only and/or written with .NET, so decided to create this using the great tools Lazarus/FPC which allows for a simple cross-platform process.
+I decided to create this tool as other similar tools that I've tried are either Windows-only and/or written in .NET, so decided to create this using the great tools Lazarus/FPC which allows for a simple cross-platform process.
 
 FPC supports a huge list of platforms, just install fpc compiler for your OS and compile the project with it to produce a single, stand-alone executable of this tool.
 
